@@ -9,14 +9,14 @@
 }
 
 .wrap-form {
-    padding: 4em;
+    padding: 2em;
     background-color: #05161d6e;
     transition: 1s;
     border: 30px;
 }
 
 .wrap-form:hover {
-    padding: 4em;
+    padding: 2em;
     background-color: #05161d6e;
     box-shadow: 5px 10px 8px #0000006e;
 }
@@ -43,7 +43,12 @@
     height: 3em;
     border: none;
     position: relative;
+    
 
+}
+
+.socialButtons{
+    padding-top: 2em;
 }
 
 .githubBtn {
