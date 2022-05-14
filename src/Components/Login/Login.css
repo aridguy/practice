@@ -1,0 +1,84 @@
+/*  */
+
+.bkg {
+    background-image: url(../../Assets/Images/bkg-img.jpg);
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.wrap-form {
+    padding: 4em;
+    background-color: #05161d6e;
+    transition: 1s;
+    border: 30px;
+}
+
+.wrap-form:hover {
+    padding: 4em;
+    background-color: #05161d6e;
+    box-shadow: 5px 10px 8px #0000006e;
+}
+
+.sbtn {
+    width: 100%;
+    background-color: #ffa500;
+    border-color: none;
+    border: none;
+}
+
+.headLogin {
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+.fb-btn {
+    background-color: rgb(15, 137, 207);
+    /* width: 5em; */
+    height: 2em;
+    color: white;
+    width: 49%;
+    margin-top: 10px;
+    height: 3em;
+    border: none;
+    position: relative;
+
+}
+
+.githubBtn {
+    background-color: rgb(0, 0, 0);
+    /* width: 5em; */
+    height: 2em;
+    color: white;
+    width: 49%;
+    margin-top: 10px;
+    height: 3em;
+    border: none;
+    position: relative;
+
+}
+
+.notices {
+    float: left;
+    padding-top: 5em;
+}
+
+.chkbx{
+    float: left;
+    padding-top: 1em;
+    padding-top: 1em;
+}
+
+#reportName, #reportpword{
+    float: left;
+    margin-bottom: 1em;
+}
+
+.af, .bf{
+    padding-bottom: 10px;
+}
+
+.special{
+    color: orange;
+}
