@@ -1,0 +1,132 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #000000;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    
+    /* text-align: center; */
+}
+
+.sidebar p {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logoutBtn {
+    color: red;
+}
+
+.sidebar p.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.signOutIcon {
+    color: red;
+
+}
+
+.product {
+    color: white;
+}
+
+.sidebar p:hover:not(.active) {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar p {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+   
+}
+
+@media screen and (max-width: 414px) {
+    
+    .profile-pics-Wrap {
+        padding-top: 4em;
+        padding-bottom: 3em;
+        padding-left: 7em;
+    }
+
+    hr{
+        display: none        
+    }
+    
+    .logoutGuys{
+        margin-left: 1em;
+        padding-top: 2em;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar p {
+        text-align: center;
+        float: none;
+    }
+    /* .profile-pics-Wrap {
+        padding-top: 4em;
+        padding-bottom: 3em;
+        padding-left: 7em;
+    } */
+}
+
+
+/* profile image css here */
+
+.p-pics {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.profile-pics-Wrap {
+    padding-top: 4em;
+    padding-bottom: 3em;
+    padding-left: 3em;
+}
+
+.profile-pics-title {
+    color: white;
+    margin-top: 1em;
+    position: relative;
+    top: 16px;
+}
+
+hr{
+    color: white;
+    width: 10em;
+    margin-left: 1em;
+    margin-top: 11em;
+    
+}
+
+.logoutGuys{
+    margin-left: 1em;
+    padding-top: 2em;
+    cursor: pointer;
+}

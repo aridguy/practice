@@ -2,7 +2,7 @@ import React from 'react';
 import "./Login.css";
 // import AdminDetails from "../../Auth/AdminDetails.json";
 
-function Login() {
+const Login =() => {
     return (
         <div>
 
