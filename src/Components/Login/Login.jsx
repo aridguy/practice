@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Login.css";
+import { Link } from 'react-router-dom';
 // import AdminDetails from "../../Auth/AdminDetails.json";
 
 const Login =() => {
@@ -21,7 +22,7 @@ const Login =() => {
                                     <span id='reportName'></span>
                                     <p><input type="password" name="password" className='form-control bf' placeholder='***password here' /></p>
                                     <span id='reportpword'></span>
-                                    <button className='btn btn-warning sbtn'>Login</button>
+                                    <Link to="/Dashboard"> <button className='btn btn-warning sbtn'>Login</button></Link>
                                 </form>
                                 <div className='socialButtons'><button className='fb-btn'>Facebook</button> <button className='githubBtn'>GitHub</button></div>
                                 <span className='chkbx'><input className='checkbx' type="checkbox" /> Remember me</span>

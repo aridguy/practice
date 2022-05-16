@@ -1,6 +1,7 @@
 import React from "react";
 import "./SideNav.css";
 import ProfileImage from "../../Assets/Images/ProfilePics.jpg";
+import { Link } from 'react-router-dom';
 
 const SideNav = () => {
     return (
@@ -15,7 +16,7 @@ const SideNav = () => {
                 <p><i className="fa fa-users team" aria-hidden="true"></i> Clients</p>
                 <p><i className="fa fa-product-hunt product" aria-hidden="true"></i> Products</p>
                 <hr />
-                <div className="logoutGuys"><i className="fa fa-sign-out signOutIcon" aria-hidden="true"></i> <b className="logoutBtn">Logout</b></div>
+                <Link to="/"><div className="logoutGuys"><i className="fa fa-sign-out signOutIcon" aria-hidden="true"></i> <b className="logoutBtn">Logout</b></div></Link>
             </div>
         </div>
     )
