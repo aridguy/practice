@@ -1,0 +1,23 @@
+li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 1em;
+    
+}
+
+.pictureProfile{
+    width: 30px;
+    border-radius: 50%;
+}
+
+ul{
+    padding-top: 2em;
+    padding-right: 2em;
+    float: right;
+    display: inline-flex;
+}
+
+.titledash{
+    float: left;
+}

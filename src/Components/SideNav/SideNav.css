@@ -89,11 +89,14 @@ div.content {
         float: none;
         display:inline-flex;
     }
-    /* .profile-pics-Wrap {
-        padding-top: 4em;
-        padding-bottom: 3em;
-        padding-left: 7em;
-    } */
+        
+        /* .p-pics {
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            position: relative;
+            left: 6em;
+        } */
 }
 
 
